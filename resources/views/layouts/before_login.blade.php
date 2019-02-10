@@ -30,7 +30,7 @@
 <body>
 
     	<nav class="navbar navbar-expand-lg navbar-light">
-    		<a href="#" class="navbar-brand"><img src="{{asset('images/SaagBazar.png')}}"></a>
+    		<a href="{{route ('welcome')}}" class="navbar-brand"><img src="{{asset('images/SaagBazar.png')}}"></a>
     		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
    			<span class="navbar-toggler-icon"></span>
   			</button>
@@ -38,16 +38,16 @@
     		<div class="collapse navbar-collapse" id="navbarSupportedContent">
     			<ul class="navbar-nav ml-auto">
     				<li class="nav-item">
-    					<a href="#" class="nav-link">About</a>
+    					<a href="{{ route ('about')}}" class="nav-link">About</a>
     				</li>
     				<li class="nav-item">
-    					<a href="#" class="nav-link">Market</a>
+    					<a href="{{ route ('market')}}" class="nav-link">Market</a>
     				</li>
     				<li class="nav-item">
-    					<a href="#" class="nav-link">Suppliers</a>
+    					<a href="{{ route ('supplier')}}" class="nav-link">Suppliers</a>
     				</li>
     				<li class="nav-item">
-    					<a href="#" class="nav-link">Contact</a>
+    					<a href="{{ route ('contact') }}" class="nav-link">Contact</a>
     				</li>
     			</ul>
     		</div>

@@ -13,11 +13,23 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
+}) -> name ('welcome');
 
 Route::get('/about', function() {
 	return view('about');
-});
+}) -> name('about');
+
+Route::get('/contact', function() {
+	return view('contact');
+}) -> name('contact');
+
+Route::get('/market', function() {
+	return view('market');
+}) -> name('market');
+
+Route::get('/supplier', function() {
+	return view('supplier');
+}) -> name('supplier');
 
 Auth::routes();
 
