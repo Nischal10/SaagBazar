@@ -1,46 +1,35 @@
 @extends('layouts.before_login')
 
 @section('content')
-
-<section>
-           
-            <div id="team">
-      
-                <div id="team-center">
-                    
-                    <article class="team-member">
-                        <img src="{{asset('images/kishor.png')}}" alt="team-member">
-                        <div class="img-footer">
-                            <div class="footer-info">
-                                <h3>Kishor Kumar Khadka</h3>
-                                <h5>Designer</h5>
-                                
-                            </div>
+                    <h5 style="text-align: center; padding: 30px 0px;"> Meet the Team</h5>
+                        <div class="row text-center">
+                        <div class="col-md-3 ok ">
+                            <img src="{{asset('images/kishor.png')}}" alt="team-member" class="photo"><br>
+                            <p style="margin: 20px;">
+                            Kishor Kumar Khadka<br>
+                            Designer
+                            </p>
                         </div>
-                        
-                    </article>
-                        
-                    <article class="team-member">
-                        <img src="{{asset('images/Pujan1.jpg')}}"  alt="team-member">
-                        <div class="img-footer">
-                            <div class="footer-info">
-                                <h3>Pujan Chapagain</h3>
-                                <h5>Fontend-Developer</h5>
-                                
-                            </div>
+                        <div class="col-md-3 ok">
+                            <img src="{{asset('images/Pujan1.jpg')}}"  alt="team-member" class="photo">
+                            <p style="margin: 20px;">
+                            Pujan Chapagain<br>
+                            Developer
+                            </p>
                         </div>
-                    </article>
-                      
-                    <article class="team-member">
-                        <img src="{{asset('images/Nischal.jpg')}}" alt="team-member">
-                        <div class="img-footer">
-                            <div class="footer-info">
-                                <h3>Nischal Kharel(Groom)</h3>
-                                <h5>Backend-developer</h5>
-                            </div>
+                        <div class="col-md-3 ok">
+                            <img src="{{asset('images/Nischal.png')}}" alt="team-member" class="photo">
+                            <p style="margin: 20px;">
+                            Nischal Kharel<br>
+                            Developer
+                            </p>
                         </div>
-                    </article>
-                </div>
-            </div>
-        </section>
+                        <div class="col-md-3 ok">
+                            <img src="{{asset('images/ishan.png')}}" alt="team-member" class="photo">
+                            <p style="margin: 20px;">
+                            Ishan Dahal<br>
+                            Designer
+                            </p>
+                        </div>
+                    </div>
 @endsection

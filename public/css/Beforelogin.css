@@ -24,6 +24,18 @@ nav{
 	margin: 0;
 }
 
+.active{
+	color: #7BC111;
+}
+
+.main_img{
+	z-index: -1;
+	text-align: center;
+	height: auto;
+	display:block;
+	margin: 100px auto 100px;
+	width: 400px; 
+}
 
 .content{
 	background-color: #f5f5f5;
@@ -36,13 +48,13 @@ nav{
 	border-radius: 15px;
 	box-shadow: 0px 2px 3px #ddd;
 	margin: 20px 0px;
+	padding: 30px 0px;
 }
 
 .lg_txt{
 	font-size: 36px;
 	text-align: center;
 	font-weight: bold;
-	margin-top: 10vh;
 	margin-bottom: 20px;
 }
 
@@ -84,65 +96,70 @@ nav{
 	text-align: center;
 	align-item:center;
 	justify-content: center;
-
 	margin:1px 10px;
+}
+
+.photo{
+	width: auto;
+	height: 150px;
+	border-radius: 50%;
+}
 
 
+.ok{
+	padding: 20px;
 }
-#team{
-  padding: 20px;
-  /*background-color:#F1C2D6;
-  background-size:cover;*/
-  margin-top:30px;
-  margin:0 10px;
-}
-.team-member{
-  margin: 10px 0;
 
-}
-.team-member img{
-  display:block;
-  /*width: 100%;*/
-  width:200px;
-  height:200px;
-  border-radius:60%;
-  max-height: 300px;
-  
-}
-.img-footer{
-  padding: 5px;
-  display: flex;
-  justify-content: space-between;
-}
-.footer-info h3{
-  color: #2b98f0;
-}
-.footer-info h5{
-  color: #959595;
-  margin: 10px 0;
-  text-transform: uppercase;
-}
-@media screen and (min-width: 569px){
-  
-  
-  
-  #team-center{
-    /*min-width: 100vw;*/
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  .team-member{
-    flex: 0 0 calc(30% - 20px);
 
-  }
+/* --- classes for market --- */
+
+.pad_20{
+	padding: 20px 10px 10px 20px;
 }
-@media screen and (min-width: 776px){
-  .team-member{
-    flex: 0 0 calc(30% - 20px);
-  }
+
+.large_cont{
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 4px 8px #ddd;
+	padding: 20px 10px;
+	margin-bottom: 30px;
 }
-@media screen and (min-width: 678px){
-  
-  }
+
+.veg_box{
+	min-height: 240px;
+	border-radius: 5px;
+	box-shadow: 0px 4px 8px #ddd;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.img_placeholder{
+	min-height: 150px;
+	margin: 10px;
+}
+
+.btn_add{
+	display: inline-block;
+	margin-left: 10px;
+	padding: 5px 5px;
+	border: 2px solid grey;
+	border-radius: 5px;
+}
+
+.btn_cart{
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+	padding: 5px 10px;
+	border: 2px solid #7BC111;
+	border-radius: 5px;
+	color: #7BC111;
+	transition: 0.3s;
+}
+
+.btn_cart:hover{
+	background-color: #7BC111;
+	color: white;
+}
+
 
